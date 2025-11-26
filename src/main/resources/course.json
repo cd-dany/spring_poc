@@ -1,0 +1,83 @@
+{
+    "course": {
+        "Instructor": {
+            "ContactInformation": {
+                "email": "Billy.Harris@sfasu.edu",
+                "phone_number": "936-468-1769",
+                "name": "Billy Harris"
+            },
+        "OfficeInformation": {
+            "office_location": "Cole STEM 316",
+            "office_times": [
+                        {
+                            "day_of_the_week": "Monday",
+                            "start_time": "15:50",
+                            "end_time": "16:45"
+                        },
+                        {
+                            "day_of_the_week":"Tuesday",
+                            "start_time":"11:00",
+                            "end_time":"11:50"
+                        },
+                        {
+                            "day_of_the_week":"Wednesday",
+                            "start_time":"15:50",
+                            "end_time":"16:45"
+                        },
+                        {
+                            "day_of_the_week":"Thursday",
+                            "start_time":"11:00",
+                            "end_time":"11:50"
+                        },
+                        {
+                           "day_of_the_week":"Thursday",
+                            "start_time":"14:50",
+                            "end_time":"15:50"
+                        }
+                    
+                ]
+            }
+        },
+        "course_code":"CSCI 3333",
+        "course_title":"Discrete Structures",
+        "course_year":"2025",
+        "course_semester":"Fall",
+        "course_schedule":[
+            {"date":"2025-08-25", "start_time":"14:30","end_time":"15:45","topic":"Introductionl roll call; formal logic introduction"},
+            {"date":"2025-08-27", "start_time":"14:30","end_time":"15:45","topic":"Propositional Logic"},
+            {"date":"2025-09-01", "start_time":"14:30","end_time":"15:45","topic":"Predicate Logic"},
+            {"date":"2025-09-03", "start_time":"14:30","end_time":"15:45","topic":"(continued)"},
+            {"date":"2025-09-08", "start_time":"14:30","end_time":"15:45","topic":"Inferences and proofs"},
+            {"date":"2025-09-10", "start_time":"14:30","end_time":"15:45","topic":"(continued)"},
+            {"date":"2025-09-15", "start_time":"14:30","end_time":"15:45","topic":"Sets"},
+            {"date":"2025-09-17", "start_time":"14:30","end_time":"15:45","topic":"Functions"},
+            {"date":"2025-09-22", "start_time":"14:30","end_time":"15:45","topic":"Catchup and Review"},
+            {"date":"2025-09-24", "start_time":"14:30","end_time":"15:45","topic":"Test 1 on Formal Logic; Sets; Functions Chapters 1-2.3"},
+            {"date":"2025-09-29", "start_time":"14:30","end_time":"15:45","topic":"Sequences and Summations"},
+            {"date":"2025-10-01", "start_time":"14:30","end_time":"15:45","topic":"Set Cardinality"},
+            {"date":"2025-10-06", "start_time":"14:30","end_time":"15:45","topic":"Matrices"},
+            {"date":"2025-10-08", "start_time":"14:30","end_time":"15:45","topic":"Algorithms, complexity, big-O"},
+            {"date":"2025-10-13", "start_time":"14:30","end_time":"15:45","topic":"Mathematical Induction"},
+            {"date":"2025-10-15", "start_time":"14:30","end_time":"15:45","topic":"Catchup and Review"},
+            {"date":"2025-10-20", "start_time":"14:30","end_time":"15:45","topic":"Test 2 on Summations, Big-O, Induction Chapters 1,2,3;5.1;5.2"},
+            {"date":"2025-10-22", "start_time":"14:30","end_time":"15:45","topic":"Recursive Definitions Reccurences"},
+            {"date":"2025-10-27", "start_time":"14:30","end_time":"15:45","topic":"Program Verification"},
+            {"date":"2025-10-29", "start_time":"14:30","end_time":"15:45","topic":"Counting"},
+            {"date":"2025-11-03", "start_time":"14:30","end_time":"15:45","topic":"Pigeon Hole Principle"},
+            {"date":"2025-11-05", "start_time":"14:30","end_time":"15:45","topic":"Permutations and Combinations"},
+            {"date":"2025-11-10", "start_time":"14:30","end_time":"15:45","topic":"Recurrences (part 2)"},
+            {"date":"2025-11-12", "start_time":"14:30","end_time":"15:45","topic":"Relations"},
+            {"date":"2025-11-17", "start_time":"14:30","end_time":"15:45","topic":"Relations (continued)"},
+            {"date":"2025-11-19", "start_time":"14:30","end_time":"15:45","topic":"Graphs"},
+            {"date":"2025-11-24", "start_time":"14:30","end_time":"15:45","topic":"Thanksgiving Week - no class"},
+            {"date":"2025-11-26", "start_time":"14:30","end_time":"15:45","topic":"Thanksgiving Week - no class"},
+            {"date":"2025-12-01", "start_time":"14:30","end_time":"15:45","topic":"Catchup and Review"},
+            {"date":"2025-12-03", "start_time":"14:30","end_time":"15:45","topic":"Catchup and Review"},
+            {"date":"2025-12-10", "start_time":"14:30","end_time":"15:45","topic":"Final Exam (2:15pm - 4:15pm)"}
+            
+
+        ]
+        
+        
+    }
+}

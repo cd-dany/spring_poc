@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.cd_dany</groupId>
+    <artifactId>spring_poc</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>25</maven.compiler.source>
+        <maven.compiler.target>25</maven.compiler.target>
+    </properties>
+
+    <build>
+    <plugins>
+      <plugin>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-maven-plugin</artifactId>
+        <version>0.0.8</version>
+        <configuration>
+          <mainClass>com.cd_dany.CalendarApp</mainClass>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+    <dependencies>
+    <!--Java Fx Dependency-->
+      <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-controls</artifactId>
+        <version>25</version>
+      </dependency>
+
+      <!--Jackson (JSON) Object Mapper Dependency-->
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.17.2</version>
+      </dependency>
+
+      <!--CalendarFX Dependency-->
+      <dependency>
+        <groupId>com.calendarfx</groupId>
+        <artifactId>view</artifactId>
+        <version>12.0.1</version>
+      </dependency>
+
+    </dependencies>
+
+</project>
